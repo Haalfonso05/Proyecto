@@ -89,3 +89,7 @@ header{
 .menu .socialMedia .img{
     width: 20px;
 }
+:root{
+    --color_text-primary: green;
+    
+}
