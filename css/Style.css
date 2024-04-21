@@ -170,7 +170,7 @@ header{
 
 /*Estilos Generales Cards*/
 
-.container_cover-primary{
+.container_card-primary{
     padding-top: 100px;
 }
 .card_primary{
@@ -230,3 +230,39 @@ header{
 }
 
 /*End Estilos Generales Cardes*/
+/*Estilos Sobre nosotros*/
+
+.container_about{
+    padding: 100px 0px;
+    background: var(--background-color);
+    margin-top: 100px;
+}
+.about{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text_about{
+    width: 100%;
+    padding-right: 40px;
+}
+.text_about h1{
+    color:var(--color_text-secundary);
+    max-width: 600;
+}
+.text_about p{
+    font-size: var(--text_paragraph);
+    margin-top: 40px;
+    color: var(--color_text-tertiary);
+}
+
+.image_about{
+    width: 100%;
+    display: flex;
+}
+.image_about img{
+    width: 300px;
+}
